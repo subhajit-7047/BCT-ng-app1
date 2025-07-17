@@ -1,0 +1,34 @@
+.counter-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+
+  button {
+    font-size: 2rem;
+    padding: 10px 20px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #115293;
+    }
+  }
+
+  span {
+    font-size: 2rem;
+    font-weight: bold;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+  }
+}
